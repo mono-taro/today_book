@@ -228,7 +228,7 @@ require_once "/usr/local/connect.php";
         $i++;            
         }    
     }catch(Exception $e){
-        echo "<script>alert(不正な入力値です。".$sql.");</script>";
+        echo "<script>alert(不正な入力値です。);</script>";
     }
 
     
