@@ -70,7 +70,7 @@ function today_book(){
 
         if ($arr == NULL) {
             return;
-        }else{  
+         
             $book_content=null;
             $C_code=null;
             $Subject_word=null;
@@ -111,10 +111,10 @@ function today_book(){
                     }
                 }
             }
-            if($audience_type=""){  //指定なしの場合便宜的に99とする
+            if($audience_type==""){  //指定なしの場合便宜的に99とする
                 $audience_type=99;  
             }
-            if($audience_value=""){
+            if($audience_value==""){
                 $audience_value=99;
             }
 
@@ -199,9 +199,7 @@ function today_book(){
 
             
 
-        }
-                
-        //}
+
     }
     $url=null;
 }
@@ -259,7 +257,7 @@ function soon_book(){
 
         if ($arr == NULL) {
             return;
-        }else{  
+      
             $book_content=null;
             $C_code=null;
             $Subject_word=null;
@@ -300,10 +298,10 @@ function soon_book(){
                 }
             }
 
-            if($audience_type=""){  //指定なしの場合便宜的に99とする
+            if($audience_type==""){  //指定なしの場合便宜的に99とする
                 $audience_type=99;  
             }
-            if($audience_value=""){
+            if($audience_value==""){
                 $audience_value=99;
             }
 
@@ -377,9 +375,9 @@ function soon_book(){
 
             
 
-        }
+        
                 
-        //}
+        
     }
     $url=null;
 
