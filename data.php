@@ -125,6 +125,8 @@ function today_book(){
 
             if(empty($book_picture)){
                 $book_picture="no_image.png";
+            }else{
+                $book_picture = str_replace("cover.openbd.jp/", "cover.openbd.jp//", $book_picture);
             }
 
             if($book_title==null){
@@ -313,6 +315,8 @@ function soon_book(){
 
             if(empty($book_picture)){
                 $book_picture="no_image.png";
+            }else{
+                $book_picture = str_replace("cover.openbd.jp/", "cover.openbd.jp//", $book_picture);
             }
 
             if($book_title==null){
