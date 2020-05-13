@@ -70,6 +70,7 @@ function today_book(){
 
         if ($arr == NULL) {
             return;
+        }
          
             $book_content=null;
             $C_code=null;
@@ -257,6 +258,7 @@ function soon_book(){
 
         if ($arr == NULL) {
             return;
+        }
       
             $book_content=null;
             $C_code=null;
