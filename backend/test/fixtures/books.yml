@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  isbn: MyString
+  title: MyString
+  subtitle: MyString
+  content: MyText
+  contributor: MyString
+  imprint: MyString
+  publisher: MyString
+  picture: MyString
+  price: 1
+  date: 2026-10-21
+  audience_type: 1
+  audience_code: 1
+  c_code: MyString
+  subject_text: MyString
+  isbn_10: MyString
+  amazon_url: MyString
+  honto_url: MyString
+  book_type: MyString
+
+two:
+  isbn: MyString
+  title: MyString
+  subtitle: MyString
+  content: MyText
+  contributor: MyString
+  imprint: MyString
+  publisher: MyString
+  picture: MyString
+  price: 1
+  date: 2026-10-21
+  audience_type: 1
+  audience_code: 1
+  c_code: MyString
+  subject_text: MyString
+  isbn_10: MyString
+  amazon_url: MyString
+  honto_url: MyString
+  book_type: MyString
